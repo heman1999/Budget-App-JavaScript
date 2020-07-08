@@ -17,7 +17,6 @@ body{
 }
 
 *{
-    box-sizing: border-box;
     font-family: 'Gilroy';
     list-style: none;
     text-decoration: none;
@@ -25,8 +24,6 @@ body{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    margin: 0;
-    padding: 0;
 }
 
 /* REMOVE SPINNERS FROM NUMBER INPUT */
@@ -44,7 +41,7 @@ input[type=number] {
 .budget-container{
     position: absolute;
     width: 360px;
-    height: 100vh;
+    height: 780px;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
@@ -56,10 +53,10 @@ input[type=number] {
     margin-left: 20px;
 }
 
-.budget-container .app-title {
+.budget-container .app-title a{
     color: #FFF;
 }
-.budget-container .app-title  b{
+.budget-container .app-title a b{
     font-family: 'Gilroy Bold';
 }
 
